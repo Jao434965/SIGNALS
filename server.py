@@ -1,5 +1,3 @@
-Python 3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)] on win32
-Enter "help" below or click "Help" above for more information.
 # server.py
 from flask import Flask, request, jsonify
 import os, requests, time
@@ -81,3 +79,4 @@ def webhook():
 ... 
 ... if __name__ == "__main__":
 ...     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+
