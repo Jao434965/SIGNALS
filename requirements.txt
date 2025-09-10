@@ -1,5 +1,4 @@
-Flask
-requests
-tzdata
-gunicorn
+Flask==2.3.6
+requests==2.32.1
+
 
